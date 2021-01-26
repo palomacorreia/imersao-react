@@ -39,7 +39,7 @@ export default function Home() {
         </Widget>
         <Footer />
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/palomacorreia/alura-quiz-react" />
+      <GitHubCorner projectUrl="https://github.com/palomacorreia/imersao-react" />
     </QuizBackground>
   );
 }
