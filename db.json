@@ -2,28 +2,118 @@
 {
     "bg": "https://frontendmasters.com/static-assets/learn/og-learning-path-react.jpg",
     "title": "Quiz React da Paloma silva",
-    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+    "description": "Teste os seus conhecimentos sobre React e vamos se você é o master mesmo",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
+        "image": "https://media2.giphy.com/media/iFmw13LV1hHhViPPWz/giphy.gif",
+        "title": "1.O que é o React JS?",
         "description": "Essa é pra aquecer",
         "answer": 2,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Um Framework ",
+          "Javascript ué!",
+          "Uma biblioteca de front-end",
+          "Typescript"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
+        "image": "https://media.tenor.com/images/fa19696403361f4b2b0e77723258e7f3/tenor.gif",
+        "title": "2.Qual dessa opções descreve uma das vantagens de usar React?",
+        "description": "Essa tá fácil...",
+        "answer": 1,
+        "alternatives": [
+          "O nubank utiliza",
+          "Rápido e escalável",
+          "O Mário souto disse que é bom"
+        ]
+      },
+      {
+        "image": "https://akns-images.eonline.com/eol_images/Entire_Site/2014413/rs_560x306-140513132348-article-2432922-18472EF100000578-249_634x346.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
+        "title": "3.DOM é a abreviatura de Document Object Model. Qual a diferença do 'DOM real' e 'DOM virtual'.",
+        "description": "humm...",
+        "answer": 2,
+        "alternatives": [
+          "Todos são dons",
+          "O DOM real é mais rápido que o DOM virtual",
+          "O DOM real é a representação dos componentes na página e o DOM virtual é um framework ou representação do real, para manipulação do DOM"
+        ]
+      },
+      {
+        "image": "https://lh3.googleusercontent.com/ubJG9iRCkEzo1ezRNQTzBIi44RYJAodtSsRi1qgZ_EnTxRqqz2rtIckoChBa63e-khNnXPSWKYAoh43YPr3ezYTwhRMZp5h5cIprw85UzR-JYADxb2NYoAyFyJvtAlj5Q-ZKEz7q",
+        "title": "4.O que são 'componentes'?",
+        "description": "Minecratft...",
+        "answer": 1,
+        "alternatives": [
+          "São classes Html",
+          "São funções javascript que representam partes da tela do usuário",
+          "São Interfaces Java"
+        ]
+      },
+      {
+        "image": "https://socialwave-production.s3-sa-east-1.amazonaws.com/feeds/img_headers/000/026/104/medium/gif-duvida-3.gif?1541792702",
+        "title": "5.O que é JSX?",
+        "description": "Essa você sabe hein",
+        "answer": 0,
+        "alternatives": [
+          "JSX significa JavaScript XML. O React JS usa esse arquivo para facilitar a leitura e a gravação de códigos HTML. ",
+          "É uma linguagem HTML",
+          "É um framework"
+        ]
+      },
+      {
+        "image": "https://i.pinimg.com/originals/bf/4c/9a/bf4c9a934f193ef60c253dfdd95df98e.gif",
+        "title": "6.Qual a diferença entre um 'componente' e um 'elemento'?",
         "description": "Faz tempo em haha",
         "answer": 0,
         "alternatives": [
-          "background: linear-gradient(#e66465, #9198e5);",
-          "background: gradient(#e66465, #9198e5);"
+          "Um componente no React aceita entrada e retorna o elemento ",
+          "Não existe diferença",
+          "O elemento retorna um componente"
+        ]
+      },
+      {
+        "image": "https://sofia.medicalistes.fr/spip/IMG/gif/53574.gif",
+        "title": "7.Qual o ciclo de vida de um componente React?",
+        "description": "1,2,3 e......",
+        "answer": 1,
+        "alternatives": [
+          "Inicialização , atualizações de estados e mudança .",
+          "Inicialização , atualizações de estados e destruição.",
+          "ngOnChanges, ngOnInit,ngOndestroy."
+        ]
+      },
+      {
+        "image": "https://d3q93wnyp4lkf8.cloudfront.net/revista/post_images/30878/7f9757badbaf04349d98d1c897dc166d04751dfe.gif?1597873318",
+        "title": "8.Sobre Os navegadores web ,qual dessas opções etá correta?",
+        "description": "Essa é boa..",
+        "answer": 1,
+        "alternatives": [
+          "Os navegadores Web leem JSX",
+          "Os navegadores Web leem javascript",
+          "Os navegadores Web leem React"
+        ]
+      },
+      {
+        "image": "https://media.tenor.com/images/a749bc9346632a6279709e2bbc2a0a5d/tenor.gif",
+        "title": "9.O que é 'flux'?",
+        "description": "Eitaa..",
+        "answer": 1,
+        "alternatives": [
+          "Um padrão de projeto",
+          "Uma arquitetura usada pelo Facebook",
+          "A mesma coisa que Redux"
+        ]
+      },
+      {
+        "image": "https://blog.vindi.com.br/wp-content/uploads/2017/03/Paulo-Silveira-Caelum.png",
+        "title": "10.Qual desses Frameworks podem ser usados para desenvolver interfaces front end com React?",
+        "description": "muiito fácil",
+        "answer": 2,
+        "alternatives": [
+          "NestJS",
+          "AngularJS",
+          "NextJS",
+          "VueJS"
         ]
       }
     ],
