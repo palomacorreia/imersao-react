@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <Head>
-        <title>AluraQuiz - ReactLoma</title>
+        <title>AluraQuiz - React</title>
       </Head>
       <QuizContainer>
         <Logo/>
