@@ -18,7 +18,7 @@
       },
       {
         "image": "https://media.tenor.com/images/fa19696403361f4b2b0e77723258e7f3/tenor.gif",
-        "title": "2.Qual dessa opções descreve uma das vantagens de usar React?",
+        "title": "2.Qual dessas opções descrevem uma das vantagens de usar React?",
         "description": "Essa tá fácil...",
         "answer": 1,
         "alternatives": [
@@ -63,7 +63,7 @@
       {
         "image": "https://i.pinimg.com/originals/bf/4c/9a/bf4c9a934f193ef60c253dfdd95df98e.gif",
         "title": "6.Qual a diferença entre um 'componente' e um 'elemento'?",
-        "description": "Faz tempo em haha",
+        "description": "what??",
         "answer": 0,
         "alternatives": [
           "Um componente no React aceita entrada e retorna o elemento ",
@@ -84,7 +84,7 @@
       },
       {
         "image": "https://d3q93wnyp4lkf8.cloudfront.net/revista/post_images/30878/7f9757badbaf04349d98d1c897dc166d04751dfe.gif?1597873318",
-        "title": "8.Sobre Os navegadores web ,qual dessas opções etá correta?",
+        "title": "8.Sobre Os navegadores web ,qual dessas opções está correta?",
         "description": "Essa é boa..",
         "answer": 1,
         "alternatives": [
