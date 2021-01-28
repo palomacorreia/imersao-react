@@ -83,6 +83,18 @@ export default function Home() {
             </Link>
             <Link href="https://quiz-games.gabrielwolf-dev.vercel.app/">
               <a>Quiz de Games</a>
+            </Link> 
+            <Link href="https://aluraquiz-coffee.leonardot07.vercel.app/">
+              <a>Quiz de Café</a>
+            </Link> 
+            <Link href="https://quiz-imersao-react.vercel.app/">
+              <a>Quiz Data Science</a>
+            </Link>
+            <Link href="https://divequiz.fncarneiro.vercel.app/">
+              <a>Quiz de Mergulho</a>
+            </Link>
+            <Link href="https://1sec-quiz.victoroda.vercel.app/">
+              <a>Quiz Que Game é esse?</a>
             </Link>
           </Widget.Content>
         </Widget>
