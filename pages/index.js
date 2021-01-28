@@ -1,7 +1,8 @@
-import React from 'react';
-import styled from 'styled-components';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
+import Link from  'next/link'
+import React from 'react';
+import styled from 'styled-components';
 
 
 import Widget from '../src/components/Widget';
@@ -61,7 +62,28 @@ export default function Home() {
           <Widget.Content>
             <h1>Quizes da Galera</h1>
 
-            <p>lorem ipsum dolor sit amet...</p>
+            <p>Dá uma olhada nesses quizes incríveis que o pessoal da Imersão Nextjs fez:</p>
+            <Link href="https://aluraquiz-base-git-main.alura-challenges.vercel.app">
+              <a>Quiz CSS da Alura</a>
+            </Link>
+            <Link href="https://aluraquiz-base-git-main.broncs.vercel.app/">
+              <a>Learn English</a>
+            </Link>
+            <Link href="https://imersao-react-next-js.matheusmuriel.vercel.app/">
+              <a>Quiz de Star Wars</a>
+            </Link>
+            <Link href="https://aluraquiz.edilson-rodrigues.vercel.app/">
+              <a>Quiz da Marvel</a>
+            </Link>
+            <Link href="https://biblequiz.epsilveira.vercel.app/">
+              <a>Quiz Bíblico</a>
+            </Link>
+            <Link href="https://aluraquiz-arcade.wesdrasalves.vercel.app/">
+              <a>Quiz do Atari</a>
+            </Link>
+            <Link href="https://quiz-games.gabrielwolf-dev.vercel.app/">
+              <a>Quiz de Games</a>
+            </Link>
           </Widget.Content>
         </Widget>
         <Footer />

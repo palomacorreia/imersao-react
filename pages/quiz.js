@@ -6,7 +6,7 @@ import QuizLogo from '../src/components/QuizLogo';
 import QuizBackground from '../src/components/QuizBackground';
 import QuizContainer from '../src/components/QuizContainer';
 import Button from '../src/components/Button';
-import { Link } from 'next/router';
+import Loading from '../src/components/LoadingComponent';
 
 
 function LoadingWidget() {
@@ -17,7 +17,7 @@ function LoadingWidget() {
       </Widget.Header>
 
       <Widget.Content>
-        [Desafio do Loading]
+      <Loading />
       </Widget.Content>
     </Widget>
   );

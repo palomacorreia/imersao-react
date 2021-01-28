@@ -45,6 +45,22 @@ Widget.Content = styled.div`
     list-style: none;
     padding: 0;
   }
+  & a {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    color: ${({ theme }) => theme.colors.contrastText};
+    background: rgba(33, 150, 243, 0.35);
+    text-decoration: none;
+    border-radius: 4px;
+    transition: .35s;
+  }
+  & a:hover {
+    background-color: ${({ theme }) => theme.colors.primary};
+  }
 `;
 
 Widget.Topic = styled.a`
