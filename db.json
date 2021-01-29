@@ -118,7 +118,18 @@
       }
     ],
     "external": [
-      ""
+      "https://aluraquiz-base-git-main.alura-challenges.vercel.app",
+      "https://aluraquiz-base-git-main.broncs.vercel.app/",
+      "https://imersao-react-next-js.matheusmuriel.vercel.app/",
+      "https://aluraquiz.edilson-rodrigues.vercel.app/",
+      "https://biblequiz.epsilveira.vercel.app/",
+      "https://aluraquiz-arcade.wesdrasalves.vercel.app/",
+      "https://quiz-games.gabrielwolf-dev.vercel.app/",
+      "https://aluraquiz-coffee.leonardot07.vercel.app/",
+      "https://quiz-imersao-react.vercel.app/",
+      "https://divequiz.fncarneiro.vercel.app/",
+      "https://1sec-quiz.victoroda.vercel.app/"
+
     ],
     "theme": {
       "colors": {

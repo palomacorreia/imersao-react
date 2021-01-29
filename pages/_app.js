@@ -2,6 +2,7 @@ import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import Head from 'next/head';
 import { NextSeo } from 'next-seo'
 import db from '../db.json';
+import React from 'react';
 
 const GlobalStyle = createGlobalStyle`
   * {

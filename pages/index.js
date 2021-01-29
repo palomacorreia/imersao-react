@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import Link from  'next/link'
+import { motion } from 'framer-motion';
 import React from 'react';
 import styled from 'styled-components';
 
@@ -33,7 +34,17 @@ export default function Home() {
       </Head>
       <QuizContainer>
         <Logo/>
-        <Widget>
+
+        <Widget
+          as={motion.section}
+          transition={{ delay: 0, duration: 0.5 }}
+          variants={{
+            show: { opacity: 1, y: '0' },
+            hidden: { opacity: 0, y: '100%' },
+          }}
+          initial="hidden"
+          animate="show"
+        >
           <Widget.Header>
             <h1>Quiz React da Paloma</h1>
           </Widget.Header>
@@ -58,47 +69,52 @@ export default function Home() {
           </Widget.Content>
         </Widget>
 
-        <Widget>
+        <Widget
+           as={motion.section}
+           transition={{ delay: 0.5, duration: 0.5 }}
+           variants={{
+             show: { opacity: 1 },
+             hidden: { opacity: 0 },
+           }}
+           initial="hidden"
+           animate="show"
+        >
           <Widget.Content>
             <h1>Quizes da Galera</h1>
 
             <p>Dá uma olhada nesses quizes incríveis que o pessoal da Imersão Nextjs fez:</p>
-            <Link href="https://aluraquiz-base-git-main.alura-challenges.vercel.app">
-              <a>Quiz CSS da Alura</a>
-            </Link>
-            <Link href="https://aluraquiz-base-git-main.broncs.vercel.app/">
-              <a>Learn English</a>
-            </Link>
-            <Link href="https://imersao-react-next-js.matheusmuriel.vercel.app/">
-              <a>Quiz de Star Wars</a>
-            </Link>
-            <Link href="https://aluraquiz.edilson-rodrigues.vercel.app/">
-              <a>Quiz da Marvel</a>
-            </Link>
-            <Link href="https://biblequiz.epsilveira.vercel.app/">
-              <a>Quiz Bíblico</a>
-            </Link>
-            <Link href="https://aluraquiz-arcade.wesdrasalves.vercel.app/">
-              <a>Quiz do Atari</a>
-            </Link>
-            <Link href="https://quiz-games.gabrielwolf-dev.vercel.app/">
-              <a>Quiz de Games</a>
-            </Link> 
-            <Link href="https://aluraquiz-coffee.leonardot07.vercel.app/">
-              <a>Quiz de Café</a>
-            </Link> 
-            <Link href="https://quiz-imersao-react.vercel.app/">
-              <a>Quiz Data Science</a>
-            </Link>
-            <Link href="https://divequiz.fncarneiro.vercel.app/">
-              <a>Quiz de Mergulho</a>
-            </Link>
-            <Link href="https://1sec-quiz.victoroda.vercel.app/">
-              <a>Quiz Que Game é esse?</a>
-            </Link>
+            <ul>
+              {db.external.map((linkExterno) => {
+                const [projectName, githubUser] = linkExterno
+                  .replace(/\//g, '')
+                  .replace('https:', '')
+                  .replace('.vercel.app', '')
+                  .split('.');
+
+                return (
+                  <li key={linkExterno}>
+                    <Widget.Topic
+                      as={Link}
+                      href={`/quiz/${projectName}___${githubUser}`}
+                    >
+                      {`${githubUser}/${projectName}`}
+                    </Widget.Topic>
+                  </li>
+                );
+              })}
+            </ul>
           </Widget.Content>
         </Widget>
-        <Footer />
+           <Footer
+          as={motion.footer}
+          transition={{ delay: 0.5, duration: 0.5 }}
+          variants={{
+            show: { opacity: 1 },
+            hidden: { opacity: 0 },
+          }}
+          initial="hidden"
+          animate="show"
+        />
       </QuizContainer>
       <GitHubCorner projectUrl="https://github.com/palomacorreia/imersao-react" />
     </QuizBackground>
