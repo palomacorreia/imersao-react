@@ -83,7 +83,7 @@ export default function Home() {
             <h1>Quizes da Galera</h1>
 
             <p>Dá uma olhada nesses quizes incríveis que o pessoal da Imersão Nextjs fez:</p>
-            <ul>
+         {/*    <ul>
               {db.external.map((linkExterno) => {
                 const [projectName, githubUser] = linkExterno
                   .replace(/\//g, '')
@@ -102,7 +102,32 @@ export default function Home() {
                   </li>
                 );
               })}
-            </ul>
+            </ul> */}
+            <Link href="https://aluraquiz-base-git-main.alura-challenges.vercel.app">
+              <a>Quiz CSS da Alura</a>
+            </Link>
+            <Link href="https://aluraquiz-base-git-main.broncs.vercel.app/">
+              <a>Learn English</a>
+            </Link>
+            <Link href="https://imersao-react-next-js.matheusmuriel.vercel.app/">
+              <a>Quiz de Star Wars</a>
+            </Link>
+            <Link href="https://aluraquiz.edilson-rodrigues.vercel.app/">
+              <a>Quiz da Marvel</a>
+            </Link>
+            <Link href="https://biblequiz.epsilveira.vercel.app/">
+              <a>Quiz Bíblico</a>
+            </Link>
+            <Link href="https://aluraquiz-arcade.wesdrasalves.vercel.app/">
+              <a>Quiz do Atari</a>
+            </Link>
+            <Link href="https://quiz-games.gabrielwolf-dev.vercel.app/">
+              <a>Quiz de Games</a>
+            </Link> 
+            <Link href="https://aluraquiz-coffee.leonardot07.vercel.app/">
+              <a>Quiz de Café</a>
+            </Link> 
+
           </Widget.Content>
         </Widget>
            <Footer

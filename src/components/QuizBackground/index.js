@@ -1,4 +1,4 @@
-// src/components/QuizBackground/index.js
+import React from 'react';
 import styled from 'styled-components';
 
 const QuizBackground = styled.div`
